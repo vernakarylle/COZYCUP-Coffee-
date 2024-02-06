@@ -1,0 +1,268 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.tagline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+.featured-products {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.product {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.menu {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.menu h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f9f9f9;
+}
+
+.item h3 {
+    color: #2c3e50;
+}
+
+.item p {
+    color: #555;
+}
+
+.price {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #34495e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}
+
+footer {
+    background-color: #34495e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.about-section h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    color: #555;
+}
+
+.team-member {
+    margin: 20px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #34495e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}
+
+.contact-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact-section h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    color: #555;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-section label {
+    text-align: left;
+    margin-bottom: 5px;
+    color: #2c3e50;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+}
+
+.contact-section button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.map iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+}
+
+footer {
+    background-color: #34495e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+}
+
+.newsletter input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.newsletter button {
+    padding: 5px 10px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.common-footer {
+    background-color: #34495e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.common-footer .footer-links nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.common-footer .footer-links nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}
+
+.common-footer .social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
